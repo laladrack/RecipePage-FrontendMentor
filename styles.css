@@ -1,22 +1,17 @@
 @import  url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-@import ('.\assets\fonts\outfit\Outfit-VariableFont_wght.ttf')
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400..600&family=Young+Serif&display=swap');
 
 .omelette{
-    max-height: 300px;
-    height: 500px;
-    width: 500px;
-    flex-basis: auto;
-    padding: 16px;
-    border-radius: 5px;
-}
-
-img{
-    max-height: 300px;
-    height: 300px;
-    width: 500px;
+    height: 100%;
+    max-width: 575px;
     flex-basis: auto;
     padding: 16px;
     border-radius: 8%;
+    align-self: center;
+}
+
+img{
+
 }
 
 .footer > a {
